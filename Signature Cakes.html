@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Cakes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+    <link rel="shortcut icon" href="https://static.wixstatic.com/media/2cd43b_1700d295b4ae4339bb3b58f7de82c131~mv2.png/v1/fill/w_320,h_231,q_90/2cd43b_1700d295b4ae4339bb3b58f7de82c131~mv2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        html{
+            font-size: 30px;
+        }
+        body{
+            background-image: url("https://wallpaperaccess.com/full/1698004.jpg");
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100%;
+            background-attachment: fixed;
+            color: white;
+            font-family: 'Annie Use Your Telescope';
+        }
+		::selection{
+            background-color: #00ff0088;
+            color: #000;
+        }
+        .hobar:hover{
+            background-color: #0004;
+            border-radius: 15px;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        var datte=new Date();
+        var orderday=datte.getDate() + 2;
+        $(function(){
+            $(".smart").html("FASTEST DELIVERY"+"<br>"+orderday+" OCT 2021");
+            $(".cartilage").click(function(){
+                $(".cartilage:focus").html('Added <i class="fa fa-check-circle" aria-hidden="true"></i>').prop("disabled",true);
+            });
+        });
+    </script>
+</head>
+<body>
+    <header class="text-center">
+        <img src="Logo.svg" style="border-bottom: 1px solid #fff;" alt="">
+        <ul>
+            <li class="d-inline-block m-3 p-3 hobar"><a class="text-light" href="index.html">Home</a></li>
+            <li class="d-inline-block m-3 p-3 hobar"><a class="text-light" href="Cake library.html">Cake Library</a></li>
+            <li class="d-inline-block m-3 p-3 hobar"><a class="text-light" href="Photocake.html">Photo Cake</a></li>
+            <li class="d-inline-block m-3 p-3 hobar"><a class="text-light" href="Create a Cake.html">Create a cake</a></li>
+        </ul>
+    </header>
+    <div class="text-left mx-auto mt-5" style="width: 1300px;">
+        <div class="row mb-5">
+            <div class="col-sm-6">
+                <h1 class="display-1">Signature<br>Cakes</h1>
+            </div>
+            <div class="col-sm-6">
+                <img src="https://mioamoreshop.com/pub/media/categorypage_banner/27.png" class="w-100" alt="">
+            </div>
+        </div>
+        <div class="card-deck text-center"><!--Cakes-->
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/c/h/choco_blossom_2_7.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Choco Blossom</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹425.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/p/u/pure_chocolate_small.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Pure Chocolate Small</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹370.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/1/0/10.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Choco Delight</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹310.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck text-center"><!--Cakes-->
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/w/h/white_chocolate_marble_2.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">White Chocolate Marble</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹350.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/b/u/butterscotch_600px_x_600px.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Butterscotch Round Small</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹310.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/c/h/chocolate_heart_small.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Chocolate Heart Small</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹320.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+        </div><div class="card-deck text-center"><!--Cakes-->
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/w/h/white_forest_small.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">White Forest</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹400.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/4/_/4.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Red Velvet</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹350.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/d/u/dual_forest_1_1.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Dual Forest</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹400.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck text-center"><!--Cakes-->
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/2/_/2_1.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Strawberry Premium</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹350.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/b/l/black_forest__2_1_1.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Black Forest Round Small</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹340.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/c/h/chocolate_large_2.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Chocolate Large</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹650.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+        </div><div class="card-deck text-center"><!--Cakes-->
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/c/o/cocolate_round_small_2.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Chocolate Round Small</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹320.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/c/h/choco_feather_3_1.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Choco Feather</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹320.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/c/h/choco_espresso_1_3.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Choco Espresso</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹400.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+    <link rel="shortcut icon" href="https://static.wixstatic.com/media/2cd43b_1700d295b4ae4339bb3b58f7de82c131~mv2.png/v1/fill/w_320,h_231,q_90/2cd43b_1700d295b4ae4339bb3b58f7de82c131~mv2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Photo Cake</title>
+    <style>
+        html{
+            font-size: 30px;
+        }
+        body{
+            background-image: url("https://wallpaperaccess.com/full/1698004.jpg");
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100%;
+            background-attachment: fixed;
+            color: white;
+            font-family: 'Annie Use Your Telescope';
+        }
+		::selection{
+            background-color: #00ff0088;
+            color: #000;
+        }
+        .hobar:hover{
+            background-color: #0004;
+            border-radius: 15px;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        $(function(){
+            $(".hey").submit(function(){
+                alert("Item added to cart successfully!")
+            });
+        });
+    </script>
+</head>
+<body>
+    <header class="text-center">
+        <img src="Logo.svg" style="border-bottom: 1px solid #fff;">
+        <ul>
+            <li class="d-inline-block m-3 p-3 hobar"><a class="text-light" href="index.html">Home</a></li>
+            <li class="d-inline-block m-3 p-3 hobar"><a class="text-light" href="Signature Cakes.html">Signature Cakes</a></li>
+            <li class="d-inline-block m-3 p-3 hobar"><a class="text-light" href="Cake library.html">Cake Library</a></li>
+            <li class="d-inline-block m-3 p-3 hobar"><a class="text-light" href="Create a Cake.html">Create a cake</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <img class="w-100" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/b3bc581f31ba560ddd26a3ebe1d21dd8/p/h/photo_cake_1.png" alt="">
+            </div>
+            <div class="col-sm-7">
+                <h1 class="display-2">Photo Cake</h1>
+                <form method="post" class="was-validated hey">
+                    <div class="form-group">
+                        <label for="weight"><h4>Weight</h4></label>
+                        <select class="custom-select" name="weight" id="weight" required>
+                            <option selected>1kg</option>
+                            <option value="">1.5kg</option>
+                            <option value="">2kg</option>
+                            <option value="">2.5kg</option>
+                            <option value="">3kg</option>
+                            <option value="">3.5kg</option>
+                            <option value="">4kg</option>
+                            <option value="">4.5kg</option>
+                            <option value="">5kg</option>
+                        </select>
+                    </div>
+                    <h4>Flavour and Cream</h4>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" name="typeofcake" id="typeofcake1" value="checkedValue" class="custom-control-input" required>
+                      <label for="typeofcake1" class="custom-control-label">ButterScotch Butter Cream</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" name="typeofcake" id="typeofcake2" value="checkedValue" class="custom-control-input" required>
+                      <label for="typeofcake2" class="custom-control-label">Strawberry Butter Cream</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" name="typeofcake" id="typeofcake3" value="checkedValue" class="custom-control-input" required>
+                      <label for="typeofcake3" class="custom-control-label">Vanilla Butter Cream</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" name="typeofcake" id="typeofcake4" value="checkedValue" class="custom-control-input" required>
+                      <label for="typeofcake4" class="custom-control-label">Chocolate Butter Cream</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" name="typeofcake" id="typeofcake5" value="checkedValue" class="custom-control-input" required>
+                      <label for="typeofcake5" class="custom-control-label">Black Forest Fresh Cream</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" name="typeofcake" id="typeofcake6" value="checkedValue" class="custom-control-input" required>
+                      <label for="typeofcake6" class="custom-control-label">Mango Fresh Cream</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" name="typeofcake" id="typeofcake7" value="checkedValue" class="custom-control-input" required>
+                      <label for="typeofcake7" class="custom-control-label">Pinapple Fresh Cream</label>
+                    </div>
+                    <h4>Dietary Preference</h4>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" name="typeofdiet" id="typeofdiet1" value="checkedValue" class="custom-control-input" required>
+                      <label for="typeofdiet1" class="custom-control-label">Regular</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" name="typeofdiet" id="typeofdiet2" value="checkedValue" class="custom-control-input" required>
+                      <label for="typeofdiet2" class="custom-control-label">Eggless</label>
+                    </div>
+                    <div class="form-group">
+                        <h4>Choose photo</h4>
+                        <div class="custom-file">
+                            <input type="file" name="photo" id="photo"class="custom-file-input" required>
+                            <label class="custom-file-label" for="photo">Choose file</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Library</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+    <link rel="shortcut icon" href="https://static.wixstatic.com/media/2cd43b_1700d295b4ae4339bb3b58f7de82c131~mv2.png/v1/fill/w_320,h_231,q_90/2cd43b_1700d295b4ae4339bb3b58f7de82c131~mv2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        html{
+            font-size: 30px;
+        }
+        body{
+            background-image: url("https://wallpaperaccess.com/full/1698004.jpg");
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100%;
+            background-attachment: fixed;
+            color: white;
+            font-family: 'Annie Use Your Telescope';
+        }
+		::selection{
+            background-color: #00ff0088;
+            color: #000;
+        }
+        .hobar:hover{
+            background-color: #0004;
+            border-radius: 15px;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        var datte=new Date();
+        var orderday=datte.getDate() + 2;
+        $(function(){
+            $(".smart").html("FASTEST DELIVERY"+"<br>"+orderday+" OCT 2021");
+            $(".cartilage").click(function(){
+                $(".cartilage:focus").html('Added <i class="fa fa-check-circle" aria-hidden="true"></i>').prop("disabled",true);
+            });
+        });
+    </script>
+</head>
+<body>
+    <header class="text-center">
+        <img src="Logo.svg" style="border-bottom: 1px solid #fff;" alt="">
+        <ul>
+            <li class="d-inline-block m-3 p-3 hobar"><a class="text-light" href="index.html">Home</a></li>
+            <li class="d-inline-block m-3 p-3 hobar"><a class="text-light" href="Signature Cakes.html">Signature Cakes</a></li>
+            <li class="d-inline-block m-3 p-3 hobar"><a class="text-light" href="Photocake.html">Photo Cake</a></li>
+            <li class="d-inline-block m-3 p-3 hobar"><a class="text-light" href="Create a Cake.html">Create a cake</a></li>
+        </ul>
+    </header>
+    <div class="text-left mx-auto mt-5" style="width: 1300px;">
+        <div class="row mb-5">
+            <div class="col-sm-6">
+                <h1 class="display-1">Cake Library</h1>
+            </div>
+            <div class="col-sm-6">
+                <img src="https://northbengal.mioamoreshop.com/pub/media/categorypage_banner/17.png" class="w-100" alt="">
+            </div>
+        </div>
+        <div class="card-deck text-center"><!--Cakes-->
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/0/0/116.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">116</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹780.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/0/0/093.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">093</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹850.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/0/0/105.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">105</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹1000.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck text-center"><!--Cakes-->
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/0/0/129.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">129</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹1000.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/0/0/099.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">099</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹1000.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/0/0/102.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">102</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹850.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck text-center"><!--Cakes-->
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/0/0/094.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">094</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹1000.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/0/0/121.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">121</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹1000.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/0/0/095.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">095</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹1200.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck text-center"><!--Cakes-->
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/0/0/137.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">137</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹1500.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/0/0/098.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">098</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹850.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+            <div class="card bg-transparent">
+                <img class="card-img-top" src="https://northbengal.mioamoreshop.com/pub/media/catalog/product/cache/de51acc2f374d9ab2566ae30f61b76ff/0/0/090.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">090</h4>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-dark" disabled>₹1000.00</button>
+                        <button type="button" class="btn btn-primary cartilage">Add to Cart</button>
+                    </div>
+                    <p class="card-text smart"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
